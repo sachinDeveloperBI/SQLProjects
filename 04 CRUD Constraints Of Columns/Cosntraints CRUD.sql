@@ -12,4 +12,4 @@ alter table ProductsData drop constraint UQ_Product;
 alter table ProductsData add constraint Check_Cost check(ProductCost>0);
 
 /*Fillin default value for record if missed in case while creating record*/
-alter table ProductsData add constraint DF_Gender default 'Unisex' for ProductGender;
+alter table ProductsData add constraint DF_Gender default 'missinggender' for ProductGender;

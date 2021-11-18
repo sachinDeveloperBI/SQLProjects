@@ -17,3 +17,5 @@ which is sp_rename*/
 select * from ProductsData;
 
 drop table ProductsData;/*Deleting table with drop command*/
+
+select * from INFORMATION_SCHEMA.TABLES; /*To list all tables */
